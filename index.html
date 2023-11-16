@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/416cf40933.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <video class="Background" autoplay muted loop src="Video/pexels_videos_1877846 (1080p) (1).mp4"></video>
+    <ul>
+        <li>
+            <div onclick="control_mp3()" id="mp3" class="mp3">
+                <audio id="audio" >
+                    <source src="audio/Running Out of Time - Belle Mariano (Lyrics).mp3">
+                </audio>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+        </li>
+    </ul>
+    <script>
+        function control_mp3() {
+            var audio = document.getElementById("audio");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
+    <div class="header">
+        
+        <img src="logo/jap-high-resolution-logo-transparent.png" alt="">
+        <p><a href="#home">Home</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#skills">Skills</a></p>
+        <p><a href="#contacts">Contacts</a></p>
+    </div>
+    <div class="home" id="home">
+        <h1 id="bounceText"> WELCOME!</h1>
+        <p> Where Creativity Meets Functionality: Webpage Design Portfolio</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/jesselann.piamonte" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            <a/> 
+            <a href="https://twitter.com/itsmeeejessel7" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/itsmeeejessel/?next=%2F" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://discord.com/channels/@me" target="_blank">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+           
+        </div>
+    </div>
+    <div class="about" id="about">
+        <img src="profile/Untitled design (1).png" alt="">
+        <h1>About Me</h1>
+        <p>My name is Jessel Ann M. Piamonte, a 20-year-old residing in Casuntingan, Mandaue City. I am currently
+            pursuing a Bachelor of Science in Information Technology at Cebu Technological University.
+            Alongside my studies, I am a passionate freelance photographer and video editor, capturing moments and
+            creating visual stories. When I'm not behind the camera, you can find me strumming my guitar, singing my
+            heart out, or engaging in a friendly game of badminton. As I continue my educational journey, my ultimate
+            goal is to become a skilled front-end developer.
+            I am excited to explore the world of web development and contribute to creating captivating online
+            experiences. Let's connect and embark on this exciting journey together!</p>
+
+            <a href="https://drive.google.com/drive/u/0/folders/1I4yghbbra29m7ryK1PtBJyRPcOV6yPDi" class="resume-button">View Resume</a>
+            <div class="swiper-container" style="width:20%">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="photos1/taguig.jpg">
+                        <div class="slide-content">
+                            <h3>CHRISTMAS VACATION 2016</h3>
+                            <p>It was my first time to visit at 
+                                Venice Piazza, Taguig.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="photos1/luneta.jpg">
+                        <div class="slide-content">
+                            <h3>LUNETA PARK</h3>
+                            <p>This was taken way back July 2019 before we went to
+                                Batangas for the National Youth Science Summer Camp.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="photos1/batangas.jpg">
+                        <div class="slide-content">
+                            <h3>NATIONAL YOUTH SCIENCE SUMMER CAMP 2019</h3>
+                            <p>This is my first time participating a national level event al
+                                 Lipa City, Batangas bringing the name of our school.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="photos1/baguio.jpg">
+                        <div class="slide-content">
+                            <h3>NATIONAL LEADERSHIP TRAINING 2020</h3>
+                            <p>Photo taken last January 2020, my second-time participating a national
+                                 event held at Baguio City bringing the name of our school.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="photos1/guitar.jpg">
+                        <div class="slide-content">
+                            <h3>MUSIC</h3>
+                            <p>One of my favorite hobbies when I want to chill.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="photos1/badminton.jpg">
+                        <div class="slide-content">
+                            <h3>BADMINTON</h3>
+                            <p>My safe place, been playing this sport since I was 9 years old and was able to compete during tournaments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills" id="skills">
+                <h1>SKILLS</h1>
+            </div>
+            
+            <div class="photograph">
+                <p>PHOTOGRAPHY</p>
+                <div class="photography">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="photos/126899275_1121621168275411_1826576156513942819_n.jpg" alt="Image 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="photos/KOLORO_1678855696431.jpg" alt="Image 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="photos/yan.jpg" alt="Image 3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="photos/KOLORO_1678893024757.jpg" alt="Image 4">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="photos/yan1.jpg" alt="Image 5">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="photos/KOLORO_1678855696431.jpg" alt="Image 6">
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            
+                <script>
+                    var mySwiper = new Swiper('.swiper-container', {
+                        loop: true, // Infinite loop
+                        autoplay: {
+                            delay: 1000, // Auto-play delay in milliseconds
+                        },
+                    });
+                </script>
+            
+            </div>
+            
+            <div class="vid">
+                <p>VIDEO EDITING</p>
+                <div class="container">
+                    <div class="wrap">
+                        <div class="slide">
+                            <video src="vidE/bei.mp4" controls></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_header">
+                <h1>CONTACT ME</h1>
+                <p>Need a photographer? you are more than welcome to leave your contact info and
+                </p><p>I look forward to discussing how I can help bring your vision to life.</p>
+
+            </div>
+            <div class="contacts" id="contacts">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="20" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="map-container">
+                <iframe 
+                    width="100%" 
+                    height="400" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=STOPLIGHT%20CAFE%20CASUNTINGAN&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
+            </div>
+            <footer>
+                <p>&copy; 2023 Jessel Ann Piamonte. All rights reserved.</p>
+            </footer>
+            
+
+
+
+</body>
+
+</html>
